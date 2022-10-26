@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1463c3;
+}
+
+.column{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#pokemonList h2{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.column li{
+    list-style: none;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    margin:50px 0 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.column li:hover{
+    background-color: #df4242;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+#card-detail{
+    text-align: center;
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    margin: 50px 0 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#detail h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+#card-detail{
+    position: sticky;
+    top: 150px;
+    padding: 50px;
+    font-size: 20px;
+}
+
+#card-detail img{
+    width: 200px;
+    height: 200px;
+}
